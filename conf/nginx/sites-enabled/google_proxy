@@ -5,9 +5,8 @@ server {
     resolver 8.8.8.8;
 
     location / {
-        youtube on;
-        youtube_scholar on;
-        youtube_language "en";
+        youtube.com;
+;
     }
 
     error_page   500 502 503 504  /50x.html;
